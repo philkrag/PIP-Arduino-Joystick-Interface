@@ -17,12 +17,13 @@
 // PAGE CREATED DATE: 2018-08-27
 // DATE       || NAME           || MODIFICATION
 // 2018-08-27   || Phillip Kraguljac    || Created.
+// 2018-10-02   || Phillip Kraguljac    || Modified Pin Configuration.
 // /////////////////////////////////////////////////////////////////////// VERSION CONTROL
 */
 
 int Push_JS_Pin = 12;
-int X_Axis_JS_Pin = A0;
-int Y_Axis_JS_Pin = A1;
+int X_Axis_JS_Pin = A1;
+int Y_Axis_JS_Pin = A0;
 bool Push_JS_Value = 0;
 int X_Axis_JS_Value = 0;
 int Y_Axis_JS_Value = 0;
